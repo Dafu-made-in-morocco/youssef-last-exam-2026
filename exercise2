@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 2: Basic Tags</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h2>Exercise 2: Basic HTML Structural Tag Layouts</h2>
+        <p>This paragraph uses <strong>strong text</strong>, <em>emphasized text</em>, and a <u>underlined element</u> to show basic inline typography formatting.</p>
+        <p><a href="workinwebprogramming.html">&larr; Back to Exercises</a></p>
+    </section>
+</body>
+</html>

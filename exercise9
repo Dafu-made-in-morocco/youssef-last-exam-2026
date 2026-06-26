@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 9: CSS Box Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h2>Exercise 9: CSS Box Model Margin and Padding Configuration</h2>
+        <div style="border: 2px solid #4a90e2; padding: 20px; margin: 15px; background-color: #f8f9fa;">
+            This element block box features an explicit 2px border layout, 20px of inner content padding space, and 15px of external margin isolation separation.
+        </div>
+        <p><a href="workinwebprogramming.html">&larr; Back to Exercises</a></p>
+    </section>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 10: Flexbox Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h2>Exercise 10: Flexbox One-Dimensional Alignment Grid</h2>
+        <div style="display: flex; gap: 10px; justify-content: space-between; background: #cbd5e1; padding: 10px;">
+            <div style="background: white; padding: 10px; flex: 1; text-align: center;">Item A</div>
+            <div style="background: white; padding: 10px; flex: 1; text-align: center;">Item B</div>
+            <div style="background: white; padding: 10px; flex: 1; text-align: center;">Item C</div>
+        </div>
+        <p style="margin-top: 20px;"><a href="workinwebprogramming.html">&larr; Back to Exercises</a></p>
+    </section>
+</body>
+</html>

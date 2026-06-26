@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 8: CSS Selectors</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .custom-class { color: #e24a4a; font-weight: bold; }
+        #unique-id { background-color: #e2e8f0; padding: 10px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>Exercise 8: CSS Class and ID Selectors Application</h2>
+        <p class="custom-class">This text is styled using a class selector.</p>
+        <p id="unique-id">This paragraph block container is styled using a unique ID selector.</p>
+        <p><a href="workinwebprogramming.html">&larr; Back to Exercises</a></p>
+    </section>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 4: User Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h2>Exercise 4: User Input Forms and Input Validation</h2>
+        <form onsubmit="alert('Form submitted!'); return false;">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" required style="margin-bottom: 10px; padding: 5px;"><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" required style="margin-bottom: 10px; padding: 5px;"><br>
+            <button type="submit" class="btn">Submit Form</button>
+        </form>
+        <p><a href="workinwebprogramming.html">&larr; Back to Exercises</a></p>
+    </section>
+</body>
+</html>

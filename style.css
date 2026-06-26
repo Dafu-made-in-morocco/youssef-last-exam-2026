@@ -1,0 +1,100 @@
+/* Rule 1: Global Page Base Reset & Typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Rule 2: Section Block Formatting & Containers */
+section {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Rule 3: Profile Header Formatting Grid Layout */
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Rule 4: Circular Responsive Profile Avatar Styling */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4a90e2;
+}
+
+/* Rule 5: Action Button & Anchor Hyperlink Interactivity */
+.btn {
+    display: inline-block;
+    background-color: #4a90e2;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #357abd;
+}
+
+/* Rule 6: List Presentation for Web Exercises */
+.exercise-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.exercise-list li {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 4px solid #4a90e2;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+.exercise-list a {
+    color: #e24a4a;
+    font-weight: bold;
+    text-decoration: none;
+}
+.exercise-list a:hover {
+    text-decoration: underline;
+}
+
+/* Rule 7: C Programming Certificate Display Responsive Elements */
+.cert-img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+/* Rule 8: Global Horizontal Break Divider Styling */
+hr {
+    border: 0;
+    height: 1px;
+    background: #e2e8f0;
+    margin: 30px 0;
+}
+
+/* Rule 9: Sticky Navigation Back Footer Control Elements */
+.back-footer {
+    margin-top: 40px;
+    text-align: center;
+}
+.back-link {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 11: Responsive Design</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .responsive-box { background-color: #4a90e2; color: white; padding: 20px; text-align: center; }
+        @media (max-width: 600px) {
+            .responsive-box { background-color: #e24a4a; }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>Exercise 11: Responsive Web Design Media Queries</h2>
+        <div class="responsive-box">
+            Resize your web window! This container transitions to red on screens narrower than 600px wide.
+        </div>
+        <p><a href="workinwebprogramming.html">&larr; Back to Exercises</a></p>
+    </section>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 7: Hyperlink Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h2>Exercise 7: Internal and External Hyperlink Navigation</h2>
+        <p>Go to an external platform: <a href="https://www.github.com" target="_blank">GitHub Official Site</a></p>
+        <p>Go back to our homepage: <a href="index.html">My Homepage</a></p>
+        <p><a href="workinwebprogramming.html">&larr; Back to Exercises</a></p>
+    </section>
+</body>
+</html>

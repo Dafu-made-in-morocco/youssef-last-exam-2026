@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 1: Image Handling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h2>Exercise 1: Image Handling and Media Content</h2>
+        <p>This exercise displays a standard responsive image using the HTML image tag.</p>
+        <img src="images/profile.jpg" alt="Sample Display" style="max-width:300px; border-radius:4px;">
+        <p><a href="workinwebprogramming.html">&larr; Back to Exercises</a></p>
+    </section>
+</body>
+</html>
